@@ -80,3 +80,10 @@ form.link, form.button {
     border-bottom: 0;
   }
 }
+
+/* CUSTOM CSS */
+
+nav {
+  background-color: #8D73D3;
+  background-image: linear-gradient(120deg, #8D73D3, #5F51D1, #C64E8D);
+}
