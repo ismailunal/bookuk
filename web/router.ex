@@ -18,6 +18,7 @@ defmodule Bookuk.Router do
 
     get "/", PageController, :index
     get "/books/new", BookController, :new
+    get "books", BookController, :create
   end
 
   # Other scopes may use custom stacks.
